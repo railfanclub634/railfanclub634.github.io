@@ -1,22 +1,16 @@
 @charset"utf-8";
 
-@font-face {
-  font-family: "M+ P Type-1 (basic latin) Thin";
-  src: url("http://mplus-fonts.osdn.jp/webfonts/basic_latin/mplus-1m-thin-sub.woff") format("woff"),
-       url("/fonts/OpenSans-Regular-webfont.woff") format("woff");
-}
-
 html,
 html * {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-	font-family: 'M+ P Type-1 (basic latin) Light','M+ Type-1 (general-j) Light', sans-serif;
+	font-family: "Sawarabi Gothic";
 }
 
 header {
 	padding: 8px;
-	font-family: 'M+ P Type-1 (basic latin) Thin','M+ Type-1 (general-j) Thin', sans-serif;
+	font-weight: 100;
 }
 
 footer {
