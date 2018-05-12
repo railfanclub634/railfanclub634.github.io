@@ -1,16 +1,44 @@
 @charset"utf-8";
 
+@font-face {
+	font-family: 'mplus-1-light';
+	src: url('./fonts/Mplus/mplus-1-light-sub.woff');
+}
+@font-face {
+	font-family: 'mplus-1-thin';
+	src: url('./fonts/Mplus/mplus-1-thin-sub.woff');
+}
+@font-face {
+	font-family: 'mplus-1p-light';
+	src: url('./fonts/Mplus/mplus-1p-light-sub.woff');
+}
+@font-face {
+	font-family: 'mplus-1p-thin';
+	src: url('./fonts/Mplus/mplus-1p-thin-sub.woff');
+}
+@font-face {
+	font-family: 'mplus-1-regular';
+	src: url('./fonts/Mplus/mplus-1-regular-sub.woff');
+}
+@font-face {
+	font-family: 'mplus-1p-regular';
+	src: url('./fonts/Mplus/mplus-1p-regular-sub.woff');
+}
+
 html,
 html * {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-	font-family: "Sawarabi Gothic";
 }
 
 header {
 	padding: 8px;
-	font-weight: 100;
+	font-family: 'mplus-1p-thin';
+}
+
+main {
+	font-family: 'mplus-1-regular','mplus-1p-regular';
 }
 
 footer {
