@@ -1,5 +1,11 @@
 @charset"utf-8";
 
+@font-face {
+  font-family: "M+ P Type-1 (basic latin) Thin";
+  src: url("http://mplus-fonts.osdn.jp/webfonts/basic_latin/mplus-1m-thin-sub.woff") format("woff"),
+       url("/fonts/OpenSans-Regular-webfont.woff") format("woff");
+}
+
 html,
 html * {
 	padding: 0;
