@@ -1,3 +1,71 @@
-@charset "utf-8";
-/* CSS Document */
+@charset"utf-8";
 
+html,
+html * {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'M+ P Type-1 (basic latin) Light','M+ Type-1 (general-j) Light', sans-serif;
+}
+
+header {
+	padding: 8px;
+	font-family: 'M+ P Type-1 (basic latin) Thin','M+ Type-1 (general-j) Thin', sans-serif;
+}
+
+footer {
+	padding: 20px 30px;
+}
+
+.hero {
+	background-image: url(img/home/hero.png);
+	background-size: cover;
+	padding: 20px 20px 450px 20px;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+.kinensai {
+	background-image: url(img/home/kinensai-logo.png);
+	background-size: cover;
+	padding: 20px 20px 430px 20px;
+	color: #FFFFFF;
+	background-position: center center; 
+	text-align: center;
+}
+
+.footer-text {
+	font-size: 11px;
+	margin-bottom: 20px;
+}
+
+.twitter-logo {
+	width: 40px;
+	position:relative;
+	top: 10px;
+	left: 10px;
+	margin-bottom: 20px;
+}
+
+.col{
+	width: 	100%;
+}
+
+
+/*タブレット用*/
+@media (min-width: 768px){
+	
+}
+	
+/*デスクトップ用*/
+@media (min-width: 1024px){
+	.style-logo{
+		float: left;
+	}
+	
+	.style-nav{
+		float: right;
+	}
+
+
+}
