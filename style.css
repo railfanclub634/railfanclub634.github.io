@@ -45,6 +45,13 @@ footer {
 	padding: 20px 30px;
 }
 
+img#fixed-button {
+	position: fixed;
+	width: 60px;
+	bottom: 30px;
+	right: 30px;
+}
+
 .hero {
 	background-image: url(img/home/hero.png);
 	background-size: cover;
@@ -77,14 +84,16 @@ footer {
 
 /*タブレット用*/
 @media (min-width: 768px){
-	
+	html {
+		display: none;
+	}
 }
 	
 /*デスクトップ用*/
 @media (min-width: 1024px){
 	
-	.style-nav{
-		float: right;
+	html {
+		display: none;
 	}
 
 
