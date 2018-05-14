@@ -2224,12 +2224,3 @@ html[dir='rtl'] #documentPropertiesOverlay .row > * {
     display: none;
   }
 }
-
-#toolbarContainer {
-	display: none;
-}
-
-.textLayer {
-	width: 100vw;
-	height: 100vw;
-}
