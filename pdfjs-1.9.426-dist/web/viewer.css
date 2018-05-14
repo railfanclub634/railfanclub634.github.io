@@ -324,7 +324,7 @@ select {
 #viewerContainer.pdfPresentationMode:-webkit-full-screen {
   top: 0px;
   border-top: 2px solid transparent;
-  background-color: transparent;
+  background-color: #000;
   width: 100%;
   height: 100%;
   overflow: hidden;
@@ -335,7 +335,7 @@ select {
 #viewerContainer.pdfPresentationMode:-moz-full-screen {
   top: 0px;
   border-top: 2px solid transparent;
-  background-color: transparent;
+  background-color: #000;
   width: 100%;
   height: 100%;
   overflow: hidden;
@@ -354,13 +354,13 @@ select {
 }
 
 #viewerContainer.pdfPresentationMode:-ms-fullscreen::-ms-backdrop {
-  background-color: transparent;
+  background-color: #000;
 }
 
 #viewerContainer.pdfPresentationMode:fullscreen {
   top: 0px;
   border-top: 2px solid transparent;
-  background-color: transparent;
+  background-color: #000;
   width: 100%;
   height: 100%;
   overflow: hidden;
@@ -561,7 +561,6 @@ html[dir='rtl'] #toolbarContainer, .findbar, .secondaryToolbar {
 
 #toolbarViewer {
   height: 32px;
- display: none;
 }
 
 #loadingBar {
@@ -2224,4 +2223,13 @@ html[dir='rtl'] #documentPropertiesOverlay .row > * {
   #scaleSelectContainer {
     display: none;
   }
+}
+
+#toolbarContainer {
+	display: none;
+}
+
+.textLayer {
+	width: 100%;
+	height: 100%;
 }
