@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+html {
+	font-family: "mplus-1-regular";
+}
+
+.title-text {
+	font-family: "mplus-1-light";
+	font-size: 40px;
+	
+}
+
+.first {
+	font-size: 34px;
+	float:left;
+	font-family: "mplus-1-light"
+}
+
+.blog-text{
+	font-size: 17px;
+	font-family: "mplus-1-light"
+}
+
