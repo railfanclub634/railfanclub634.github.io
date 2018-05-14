@@ -2224,3 +2224,11 @@ html[dir='rtl'] #documentPropertiesOverlay .row > * {
     display: none;
   }
 }
+
+
+#toolbarViwer {
+	display: none;
+}
+#viwer.pdfviwer {
+	display: none;
+}
