@@ -2229,6 +2229,6 @@ html[dir='rtl'] #documentPropertiesOverlay .row > * {
 #toolbarViwer {
 	display: none;
 }
-#viwer.pdfviwer {
+#viwerContainer {
 	display: none;
 }
