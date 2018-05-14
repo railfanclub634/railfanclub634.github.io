@@ -30,7 +30,7 @@ img#fixed-button {
 }
 
 .hero {
-	background-image: url(img/home/hero.png);
+	background-image: url(images/home/hero.png);
 	background-size: cover;
 	padding: 20px 20px 450px 20px;
 	color: #FFFFFF;
@@ -38,7 +38,7 @@ img#fixed-button {
 }
 
 .kinensai {
-	background-image: url(img/home/kinensai-logo.png);
+	background-image: url(images/home/kinensai-logo.png);
 	background-size: cover;
 	padding: 20px 20px 430px 20px;
 	color: #FFFFFF;
