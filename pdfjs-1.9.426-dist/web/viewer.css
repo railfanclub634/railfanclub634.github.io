@@ -320,8 +320,9 @@ select {
 [hidden] {
   display: none !important;
 }
-
+/*ここからdisplay: none; を追加済み */
 #viewerContainer.pdfPresentationMode:-webkit-full-screen {
+　display: none;
   top: 0px;
   border-top: 2px solid transparent;
   background-color: #000;
@@ -333,6 +334,7 @@ select {
 }
 
 #viewerContainer.pdfPresentationMode:-moz-full-screen {
+　display: none;
   top: 0px;
   border-top: 2px solid transparent;
   background-color: #000;
@@ -344,6 +346,7 @@ select {
 }
 
 #viewerContainer.pdfPresentationMode:-ms-fullscreen {
+　display: none;
   top: 0px !important;
   border-top: 2px solid transparent;
   width: 100%;
@@ -354,10 +357,12 @@ select {
 }
 
 #viewerContainer.pdfPresentationMode:-ms-fullscreen::-ms-backdrop {
+　display: none;
   background-color: #000;
 }
 
 #viewerContainer.pdfPresentationMode:fullscreen {
+　display: none;
   top: 0px;
   border-top: 2px solid transparent;
   background-color: #000;
@@ -369,7 +374,7 @@ select {
   -moz-user-select: none;
   -ms-user-select: none;
 }
-
+/*ここまでdisplay: none; を追加済み */
 .pdfPresentationMode:-webkit-full-screen a:not(.internalLink) {
   display: none;
 }
