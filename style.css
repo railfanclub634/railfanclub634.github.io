@@ -48,8 +48,10 @@ footer {
 img#fixed-button {
 	position: fixed;
 	width: 60px;
-	bottom: 30px;
-	right: 30px;
+	bottom: 20px;
+	right: 20px;
+	border-radius: 50%;
+	box-shadow: 0 0 8px gray;
 }
 
 .hero {
