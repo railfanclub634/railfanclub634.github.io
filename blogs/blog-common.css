@@ -21,3 +21,7 @@ html {
 	font-family: "mplus-1-light"
 }
 
+.pdf-viewer{
+	width: 100vw;
+	height:100vw;
+}
