@@ -2,9 +2,8 @@
 
 .pdf-viewer {
 	position: absolute;
-    top: 20;
-    left: 0;
+    top: 150px;
     width: 100%;
-    height: calc(100%-20px);
+    height: calc(100% - 150px);
 
 }
