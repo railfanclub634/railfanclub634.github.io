@@ -29,7 +29,15 @@ img#fixed-button {
 	box-shadow: 0 0 8px gray;
 }
 
-.hero {
+.booklet-96th {
+	background-image : url(images/home/96th-booklet.svg);
+	background-size: cover;
+	padding: 20px 20px 450px 20px;
+	color: #111;
+	text-align: center;
+}	
+
+.tyouki2018 {
 	background-image: url(images/home/hero.png);
 	background-size: cover;
 	padding: 20px 20px 450px 20px;
