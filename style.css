@@ -32,26 +32,31 @@ img#fixed-button {
 .booklet-96th {
 	background-image : url(images/home/96th-booklet.svg);
 	background-size: cover;
+	background-position: center center; 
 	padding: 20px 20px 450px 20px;
 	color: #111;
 	text-align: center;
+	background-attachment:fixed;
 }	
 
 .tyouki2018 {
 	background-image: url(images/home/hero.png);
 	background-size: cover;
+	background-position: center center; 
 	padding: 20px 20px 450px 20px;
 	color: #FFFFFF;
 	text-align: center;
+	background-attachment:fixed;
 }
 
 .kinensai {
 	background-image: url(images/home/kinensai-logo.png);
 	background-size: cover;
+	background-position: center center; 
 	padding: 20px 20px 430px 20px;
 	color: #FFFFFF;
-	background-position: center center; 
 	text-align: center;
+	background-attachment:fixed;
 }
 
 .footer-text {
