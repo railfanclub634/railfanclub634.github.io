@@ -42,17 +42,17 @@ img#fixed-button {
 	text-align: center;
 }
 
-.booklet-96th {
-	background-image : url(images/home/96th-booklet.svg);
+.box1 {
+	background-image : url(images/home/2018-96th-booklet.svg);
 	color: #111;
 }	
 
-.tyouki2018 {
-	background-image: url(images/home/hero.png);
+.box2 {
+	background-image: url(images/home/2018-harutyouki.png);
 }
 
-.kinensai {
-	background-image: url(images/home/kinensai-logo.png);
+.box3 {
+	background-image: url(images/home/2018-kinensai-logo.png);
 }
 
 .footer-text {
@@ -71,7 +71,12 @@ img#fixed-button {
 /*タブレット用*/
 @media (min-width: 768px){
 	html {
-		display: none;
+		max-width: 750px;
+	}
+	.main-box {
+		float:left;
+		margin-right: auto;
+		margin-left: auto;
 	}
 }
 	
@@ -79,8 +84,8 @@ img#fixed-button {
 @media (min-width: 1024px){
 	
 	html {
-		display: none;
+		max-width: 1000px;
+		margin-right: auto;
+		margin-left: auto;
 	}
-
-
 }
