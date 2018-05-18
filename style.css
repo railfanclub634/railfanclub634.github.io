@@ -8,7 +8,7 @@ html * {
 }
 
 header {
-	padding: 8px;
+	padding: 0px;
 	font-family: 'mplus-1p-thin';
 }
 
@@ -29,34 +29,30 @@ img#fixed-button {
 	box-shadow: 0 0 8px gray;
 }
 
+.header-text {
+	padding: 7px;
+}
+
+.main-box {
+	background-size: cover;
+	background-position: center center;
+	padding-top: 20px;
+	padding-bottom: 440px;
+	color: #FFFFFF;
+	text-align: center;
+}
+
 .booklet-96th {
 	background-image : url(images/home/96th-booklet.svg);
-	background-size: cover;
-	background-position: center center; 
-	padding: 20px 20px 450px 20px;
 	color: #111;
-	text-align: center;
-	background-attachment:fixed;
 }	
 
 .tyouki2018 {
 	background-image: url(images/home/hero.png);
-	background-size: cover;
-	background-position: center center; 
-	padding: 20px 20px 450px 20px;
-	color: #FFFFFF;
-	text-align: center;
-	background-attachment:fixed;
 }
 
 .kinensai {
 	background-image: url(images/home/kinensai-logo.png);
-	background-size: cover;
-	background-position: center center; 
-	padding: 20px 20px 430px 20px;
-	color: #FFFFFF;
-	text-align: center;
-	background-attachment:fixed;
 }
 
 .footer-text {
