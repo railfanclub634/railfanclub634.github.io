@@ -48,7 +48,7 @@ img#fixed-button {
 
 .box1 h1 {
 	position:relative;
-	top:110px;
+	top:185px;
 	font-size: 60px;
 }
 
@@ -91,6 +91,12 @@ img#fixed-button {
 		float:left;
 		width: 50%;
 		padding-bottom: 300px;
+	}
+	
+	.box1 h1 {
+	position:relative;
+	top:110px;
+	font-size: 60px;
 	}
 }
 	
