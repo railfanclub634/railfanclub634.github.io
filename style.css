@@ -63,6 +63,11 @@ img#fixed-button {
 	color: #000000;
 }
 
+.box4 {
+	background-image: url(images/home/error/image-none1.png);
+	color: #000000;
+}
+
 .footer-text {
 	font-size: 11px;
 	margin-bottom: 20px;
