@@ -38,21 +38,22 @@ img#fixed-button {
 	background-position: center center;
 	padding-top: 20px;
 	padding-bottom: 440px;
-	color: #FFFFFF;
 	text-align: center;
 }
 
 .box1 {
-	background-image : url(images/home/2018-96th-booklet.svg);
-	color: #111;
+	background-image : url(images/home/error/image-none1.png);
+	color: #000000;
 }	
 
 .box2 {
-	background-image: url(images/home/2018-harutyouki.png);
+	background-image: url(images/home/error/image-none1.png);
+	color: #000000;
 }
 
 .box3 {
-	background-image: url(images/home/2018-kinensai-logo.png);
+	background-image: url(images/home/error/image-none1.png);
+	color: #000000;
 }
 
 .footer-text {
