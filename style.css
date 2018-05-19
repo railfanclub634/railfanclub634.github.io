@@ -72,11 +72,17 @@ img#fixed-button {
 @media (min-width: 768px){
 	html {
 		max-width: 750px;
-	}
-	.main-box {
-		float:left;
 		margin-right: auto;
 		margin-left: auto;
+	}
+	
+	.header-text {
+		padding: 10px;
+	}
+	
+	.main-box {
+		float:left;
+		width: 50%;
 	}
 }
 	
@@ -87,5 +93,11 @@ img#fixed-button {
 		max-width: 1000px;
 		margin-right: auto;
 		margin-left: auto;
+	}
+	
+	.main-box {
+		float: left;
+		width: 25%;
+	    padding-bottom: 300px;
 	}
 }
