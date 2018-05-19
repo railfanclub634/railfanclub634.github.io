@@ -46,6 +46,12 @@ img#fixed-button {
 	color: #000000;
 }	
 
+.box1 h1 {
+	position:relative;
+	top:110px;
+	font-size: 60px;
+}
+
 .box2 {
 	background-image: url(images/home/error/image-none1.png);
 	color: #000000;
@@ -84,6 +90,7 @@ img#fixed-button {
 	.main-box {
 		float:left;
 		width: 50%;
+		padding-bottom: 300px;
 	}
 }
 	
@@ -98,7 +105,6 @@ img#fixed-button {
 	
 	.main-box {
 		float: left;
-		width: 25%;
-	    padding-bottom: 300px;
+		width: calc(100% / 3);
 	}
 }
