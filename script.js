@@ -1,4 +1,4 @@
-/* jshint strict: false */
+
 $(function(){
 	//html書き換え
 	$('.box1').html('<h4>2018/05/19</h4><h1>HP開設</h1>');
@@ -14,7 +14,7 @@ $(function(){
 	$('.box4').css({'background-image':'url(images/home/2018-kinensai-logo.png)','color':'#FFF'});
 	
 	//fixed-buttonクリックイベント
-	$('#fixed-button').click(function() {
+	$('.fixed-button-colider').click(function() {
 		$('.overlay').toggleClass('is-open');
  	});
 	$('.overlay').click(function() {

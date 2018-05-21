@@ -20,14 +20,38 @@ footer {
 	padding: 20px 30px;
 }
 
+.fixed-button-colider {
+	position: fixed;
+	width: 60px;
+	height: 60px;
+	bottom: 20px;
+	right: 20px;
+	z-index: 3;
+}
+
 #fixed-button {
 	position: fixed;
 	width: 60px;
+	height: 60px;
 	bottom: 20px;
 	right: 20px;
 	border-radius: 50%;
 	box-shadow: 0 0 8px gray;
 	z-index: 2;
+}
+
+#fixed-button #fixed-button-1 .border {
+	transition: 200ms 
+}
+
+#fixed-button #fixed-button-1 .border1 {
+  transform: translate(-102px, 102px) rotate(45deg);
+}
+#fixed-button #fixed-button-1 .border2 {
+  opacity: 0;
+}
+#fixed-button #fixed-button-1 .border3 {
+  transform: translate(-102px, -102px) rotate(-45deg);
 }
 
 .overlay {
