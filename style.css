@@ -170,7 +170,7 @@ footer {
 }
 
 /*タイトルが収まりきらない端末用*/
-@media (max-width: 299px){
+@media (max-width: 301px){
 	.header-text{
 		letter-spacing: -1px;
 	}
