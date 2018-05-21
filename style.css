@@ -168,3 +168,15 @@ footer {
 		width: calc(100% / 3);
 	}
 }
+
+/*タイトルが収まりきらない端末用*/
+@media (max-width: 299px){
+	.header-text{
+		letter-spacing: -1px;
+	}
+}
+@media (max-width: 285px){
+	.header-text{
+		letter-spacing: -2px;
+	}
+}
