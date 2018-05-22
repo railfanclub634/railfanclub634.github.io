@@ -12,6 +12,11 @@
 	$('.box3').css({'background-image':'url(images/home/2018-harutyouki.png)','color':'#FFF'});
 	$('.box4').css({'background-image':'url(images/home/2018-kinensai-logo.png)','color':'#FFF'});
 	
+	//boxにリンク
+	$('.box1').click(function() {
+		window.location.href="./sites/special/site-opening/index.html"
+ 	}); 
+	 
 	//fixed-buttonクリックイベント
 	$('.fixed-button-colider').click(function() {
 		$('.overlay').toggleClass('is-open');
