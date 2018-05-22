@@ -20,6 +20,10 @@ footer {
 	padding: 20px 30px;
 }
 
+.cover-lock {
+	pointer-events: none;
+}
+
 .fixed-button-colider {
 	position: fixed;
 	width: 60px;
@@ -60,7 +64,7 @@ footer {
   left: 0;
   z-index: 1;
   width: 100%;
-  height: 100%;
+  height: 120%;
   background: rgba(0, 0, 0, .7);
   opacity: 0;
   visibility: hidden;

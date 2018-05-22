@@ -1,5 +1,4 @@
-
-$(function(){
+ $(function(){
 	//html書き換え
 	$('.box1').html('<h4>2018/05/19</h4><h1>HP開設</h1>');
 	$('.box2').html('<h4>2018/05/19</h4><h1>小冊子配布</h1>');
@@ -16,8 +15,10 @@ $(function(){
 	//fixed-buttonクリックイベント
 	$('.fixed-button-colider').click(function() {
 		$('.overlay').toggleClass('is-open');
+		$('.cover').toggleClass('cover-lock');
  	});
 	$('.overlay').click(function() {
 		$('.overlay').removeClass('is-open');
+		$('.cover').removeClass('cover-lock');
  	});
 });
