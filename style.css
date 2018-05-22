@@ -64,7 +64,7 @@ footer {
   background: rgba(0, 0, 0, .7);
   opacity: 0;
   visibility: hidden;
-  transition: .2s linear;
+  transition: .2s ease;
   transform: translateY(100%);
 }
 
