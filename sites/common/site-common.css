@@ -1,11 +1,11 @@
 @charset "utf-8";
 
 html {
-	font-family: "mplus-1-regular";
+	font-family: "mplus-1-regular","mplus-1p-regular";
 }
 
 .title-text {
-	font-family: "mplus-1-light";
+	font-family: "mplus-1-light","mplus-1p-light";
 	font-size: 40px;
 	
 }
@@ -16,7 +16,7 @@ html {
 	font-family: "mplus-1-light"
 }
 
-.blog-text{
+.site-text{
 	font-size: 14px;
 	font-family: "mplus-1-light"
-} 
+}

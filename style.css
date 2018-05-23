@@ -1,25 +1,5 @@
 @charset"utf-8";
 
-html,
-html * {
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
-	letter-spacing: -0.01px;
-}
-
-header {
-	padding: 0px;
-	font-family: 'mplus-1p-thin';
-}
-
-main {
-	font-family: 'mplus-1-regular','mplus-1p-regular';
-}
-
-footer {
-	padding: 20px 30px;
-}
 
 .cover-lock {
 	pointer-events: none;
@@ -92,60 +72,36 @@ footer {
 }
 
 .box1 {
-	background-image : url(images/home/error/image-none1.png);
+	background-image : url(common/images/error/image-none1.png);
 	color: #000000;
 }	
 
 .box1 h1 {
-	position:relative;
-	top:185px;
+	position: relative;
+	top: 185px;
 	font-size: 60px;
 }
 
 .box2 {
-	background-image: url(images/home/error/image-none1.png);
+	background-image: url(common/images/error/image-none1.png);
 	color: #000000;
 }
 
 .box3 {
-	background-image: url(images/home/error/image-none1.png);
+	background-image: url(common/images/error/image-none1.png);
 	color: #000000;
 }
 
 .box4 {
-	background-image: url(images/home/error/image-none1.png);
+	background-image: url(common/images/error/image-none1.png);
 	color: #000000;
 }
 
-.footer-text {
-	font-size: 11px;
-	margin-bottom: 20px;
-}
 
-.twitter-logo {
-	width: 40px;
-	position:relative;
-	top: 10px;
-	left: 10px;
-	margin-bottom: 20px;
-}
 
 /*タブレット用*/
 @media (min-width: 768px){
-	html {
-		max-width: 750px;
-		margin-right: auto;
-		margin-left: auto;
-	}
-		
-	.menu {
-		display: none;
-	}
-	
-	.header-text {
-		padding: 10px;
-	}
-	
+
 	.main-box {
 		float:left;
 		width: 50%;
@@ -162,26 +118,9 @@ footer {
 /*デスクトップ用*/
 @media (min-width: 1024px){
 	
-	html {
-		max-width: 1000px;
-		margin-right: auto;
-		margin-left: auto;
-	}
-	
 	.main-box {
 		float: left;
 		width: calc(100% / 3);
 	}
 }
 
-/*タイトルが収まりきらない端末用*/
-@media (max-width: 301px){
-	.header-text{
-		letter-spacing: -1px;
-	}
-}
-@media (max-width: 285px){
-	.header-text{
-		letter-spacing: -2px;
-	}
-}
