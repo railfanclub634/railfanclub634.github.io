@@ -33,6 +33,87 @@ html * {
 	letter-spacing: -0.01px;
 }
 
+.fixed-button-colider {
+	position: fixed;
+	width: 60px;
+	height: 60px;
+	bottom: 20px;
+	right: 20px;
+	z-index: 3;
+}
+
+#fixed-button {
+	position: fixed;
+	width: 60px;
+	height: 60px;
+	bottom: 20px;
+	right: 20px;
+	border-radius: 50%;
+	box-shadow: 0 0 8px gray;
+	z-index: 2;
+}
+
+#fixed-button #fixed-button-1 .border {
+	transition: 200ms 
+}
+
+#fixed-button #fixed-button-1 .border1 {
+  transform: translate(-102px, 102px) rotate(45deg);
+}
+#fixed-button #fixed-button-1 .border2 {
+  opacity: 0;
+}
+#fixed-button #fixed-button-1 .border3 {
+  transform: translate(-102px, -102px) rotate(-45deg);
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, .7);
+  opacity: 0;
+  visibility: hidden;
+  transition: .2s cubic-bezier(0.66, 0.03, 0.35, 0.91);
+  transform: translateY(100%);
+  color:#fff;
+}
+
+.overlay.is-open {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.overlay .overlay-share {
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.overlay .overlay-share .share-icon-twitter {
+	width:calc(100% / 3);
+	float:left;
+}
+
+.overlay .overlay-share .share-icon-facebook {
+	width:calc(100% / 3);
+	float:left;
+}
+
+.overlay .overlay-share .share-icon-googleplus {
+	width:calc(100% / 3);
+	float:left;
+}
+
+.header-text {
+	padding: 7px;
+}
+
+
 header {
 	padding: 0px;
 	font-family: 'mplus-1-thin','mplus-1p-thin';

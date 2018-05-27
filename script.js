@@ -20,10 +20,8 @@
 	//fixed-buttonクリックイベント
 	$('.fixed-button-colider').click(function() {
 		$('.overlay').toggleClass('is-open');
-		$('.cover').toggleClass('cover-lock');
  	});
 	$('.overlay').click(function() {
 		$('.overlay').removeClass('is-open');
-		$('.cover').removeClass('cover-lock');
  	});
 });
