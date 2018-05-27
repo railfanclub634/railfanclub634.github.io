@@ -53,60 +53,78 @@ html * {
 	z-index: 2;
 }
 
-#fixed-button #fixed-button-1 .border {
-	transition: 200ms 
-}
-
-#fixed-button #fixed-button-1 .border1 {
-  transform: translate(-102px, 102px) rotate(45deg);
-}
-#fixed-button #fixed-button-1 .border2 {
-  opacity: 0;
-}
-#fixed-button #fixed-button-1 .border3 {
-  transform: translate(-102px, -102px) rotate(-45deg);
-}
-
 .overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 1;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, .7);
-  opacity: 0;
-  visibility: hidden;
-  transition: .2s cubic-bezier(0.66, 0.03, 0.35, 0.91);
-  transform: translateY(100%);
-  color:#fff;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, .7);
+	opacity: 0;
+	visibility: hidden;
+	transition: .2s cubic-bezier(0.66, 0.03, 0.35, 0.91);
+	transform: translateY(100%);
+	color:#fff;
+	list-style: none;
+}
+.overlay.is-open {
+  	opacity: 1;
+	background-color: rgba(0, 0, 0, .8);
+  	visibility: visible;
+  	transform: translateY(0);
 }
 
-.overlay.is-open {
-  opacity: 1;
-  visibility: visible;
-  transform: translateY(0);
+.overlay .overlay-search {
+	width: 240px;
+	border-bottom: solid 1px #fff;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+	font-family: "mplus-1-thin";
+	color:rgba(255,255,255,0.40) 
+}
+
+.overlay .overlay-list {
+	margin-top: 20px;
+	width: 180px;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: "mplus-1-thin","mplus-1p-thin";
+}
+
+.overlay .overlay-list li {
+	padding-top: 10px;
+	width: 100%;
+	border-bottom: solid 1px #4E4E4E;
 }
 
 .overlay .overlay-share {
-	width: 80%;
+	width: 200px;
+	height: auto;
 	margin-right: auto;
 	margin-left: auto;
+	margin-top: 30px;
+	text-align: center;
+	font-family: "mplus-1-light","mplus-1p-light";
 }
 
 .overlay .overlay-share .share-icon-twitter {
 	width:calc(100% / 3);
 	float:left;
+	padding: 10px;
 }
 
 .overlay .overlay-share .share-icon-facebook {
 	width:calc(100% / 3);
 	float:left;
+	padding: 10px;
 }
 
 .overlay .overlay-share .share-icon-googleplus {
 	width:calc(100% / 3);
 	float:left;
+	padding: 10px;
 }
 
 .header-text {
