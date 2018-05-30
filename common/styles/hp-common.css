@@ -31,6 +31,16 @@ html * {
 	margin: 0;
 	box-sizing: border-box;
 	letter-spacing: -0.01px;
+	list-style: none;
+}
+
+a {
+	text-decoration: none ;
+	color: #fff;
+}
+
+.cover {
+	z-index: 1;
 }
 
 .fixed-button-colider {
@@ -39,7 +49,7 @@ html * {
 	height: 60px;
 	bottom: 20px;
 	right: 20px;
-	z-index: 3;
+	z-index: 11;
 }
 
 #fixed-button {
@@ -50,14 +60,14 @@ html * {
 	right: 20px;
 	border-radius: 50%;
 	box-shadow: 0 0 8px gray;
-	z-index: 2;
+	z-index: 10;
 }
 
 .overlay {
 	position: fixed;
 	top: 0;
 	left: 0;
-	z-index: 1;
+	z-index: 2;
 	width: 100%;
 	height: 100%;
 	background: rgba(0, 0, 0, .7);
@@ -66,8 +76,8 @@ html * {
 	transition: .2s cubic-bezier(0.66, 0.03, 0.35, 0.91);
 	transform: translateY(100%);
 	color:#fff;
-	list-style: none;
 }
+
 .overlay.is-open {
   	opacity: 1;
 	background-color: rgba(0, 0, 0, .8);
@@ -82,7 +92,7 @@ html * {
 	margin-right: auto;
 	margin-top: 40px;
 	font-family: "mplus-1-thin";
-	color:rgba(255,255,255,0.40) 
+	color: rgba(255,255,255,0.40);
 }
 
 .overlay .overlay-list {

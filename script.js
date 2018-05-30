@@ -21,7 +21,9 @@
 	$('.fixed-button-colider').click(function() {
 		$('.overlay').toggleClass('is-open');
  	});
+/*
 	$('.overlay').click(function() {
 		$('.overlay').removeClass('is-open');
  	});
+*/
 });
