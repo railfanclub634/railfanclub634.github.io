@@ -4,7 +4,7 @@
 	background-size: cover;
 	background-position: center center;
 	padding-top: 20px;
-	padding-bottom: px;
+	padding-bottom: 350px;
 	text-align: center;
 }
 
@@ -42,7 +42,6 @@
 	.main-box {
 		float:left;
 		width: 50%;
-		padding-bottom: 350px;
 	}
 	
 	.box1 {
