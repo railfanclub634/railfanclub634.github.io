@@ -4,12 +4,12 @@
 	background-size: cover;
 	background-position: center center;
 	padding-top: 20px;
-	padding-bottom: 440px;
+	padding-bottom: px;
 	text-align: center;
 }
 
 .box1 {
-	background-image : url(common/images/error/image-none1.png);
+	background-image : url(./images/site-introduction.png);
 	color: #000000;
 }	
 
@@ -20,12 +20,12 @@
 }
 
 .box2 {
-	background-image: url(common/images/error/image-none1.png);
+	background-image: url(./images/2018-96th-booklet.svg);
 	color: #000000;
 }
 
 .box3 {
-	background-image: url(common/images/error/image-none1.png);
+	background-image: url(./images/2018-kinensai-logo.png);
 	color: #000000;
 }
 
@@ -42,7 +42,11 @@
 	.main-box {
 		float:left;
 		width: 50%;
-		padding-bottom: 300px;
+		padding-bottom: 350px;
+	}
+	
+	.box1 {
+		width: 100%;
 	}
 	
 	.box1 h1 {
@@ -58,5 +62,9 @@
 	.main-box {
 		float: left;
 		width: calc(100% / 3);
+	}
+	
+	.box1 {
+		width: 100%;
 	}
 }
