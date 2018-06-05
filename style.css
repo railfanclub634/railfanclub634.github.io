@@ -4,13 +4,17 @@
 	background-size: cover;
 	background-position: center center;
 	padding-top: 20px;
-	padding-bottom: 350px;
+	padding-bottom: 420px;
 	text-align: center;
+}
+
+.main-box h1 {
+	top: 20px;
 }
 
 .box1 {
 	background-image : url(./images/site-introduction.png);
-	color: #000000;
+	color: #fff;
 }	
 
 .box1 h1 {
@@ -42,6 +46,7 @@
 	.main-box {
 		float:left;
 		width: 50%;
+		padding-bottom:350px;
 	}
 	
 	.box1 {
