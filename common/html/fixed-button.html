@@ -3,16 +3,18 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-<script src="../scripts/jquery-3.3.1.min.js"></script>
-<script src="../../script.js"></script>
-<title>武蔵高等学校中学校鉄道研究部</title>
-<link rel="stylesheet" href="../styles/normalize.css">
-<link rel="stylesheet" href="../styles/hp-common.css">
-<link rel="stylesheet" href="../../style.css">
+<script src="/common/scripts/jquery-3.3.1.min.js"></script>
+<script>
+	//fixed-buttonクリックイベント
+	$('.fixed-button-colider').click(function() {
+		$('.overlay').toggleClass('is-open');
+ 	});
+</script>
+<link rel="stylesheet" href="/common/html/css/fixed-button.css">
 </head>
 <body>
 	<div class="fixed-button-colider"></div>
-	<object data="common/images/icon/fixed-button.svg" type="image/svg+xml" alt="" id="fixed-button"></object>
+	<object data="/common/images/icon/fixed-button.svg" type="image/svg+xml" alt="" id="fixed-button"></object>
 	<div class="overlay">
 		<div class="overlay-search">
 			<h2>検索</h2>
@@ -40,12 +42,12 @@
 		<div class="overlay-share">
 			<h2>share</h2>
 			<a href="https://twitter.com/intent/tweet?text=railfanclub.github.io">
-				<img class="share-icon-twitter" src="common/images/overlay/Twitter_Social_Icon_Circle_White.svg" alt="#">
+				<img class="share-icon-twitter" src="/common/images/overlay/Twitter_Social_Icon_Circle_White.svg" alt="#">
 			</a>
 			<a href="https://www.facebook.com/sharer/sharer.php?u=railfanclub.github.io">
-				<img class="share-icon-facebook" src="common/images/overlay/flogo-RGB-HEX-Blk-58.svg" alt="#">
+				<img class="share-icon-facebook" src="/common/images/overlay/flogo-RGB-HEX-Blk-58.svg" alt="#">
 			</a>
-			<img class="share-icon-googleplus" src="common/images/overlay/google-plus.svg" alt="#">
+			<img class="share-icon-googleplus" src="/common/images/overlay/google-plus.svg" alt="#">
 		</div>
 	</div>	
 </body>
