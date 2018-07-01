@@ -59,25 +59,6 @@ main {
 	font-family: 'mplus-1-regular','mplus-1p-regular';
 }
 
-footer {
-	padding: 0px;
-	padding: 20px 30px;
-	font-family: 'mplus-1-regular','mplus-1p-regular';
-}
-
-.footer-text {
-	font-size: 11px;
-	margin-bottom: 20px;
-}
-
-.twitter-logo {
-	width: 40px;
-	position:relative;
-	top: 10px;
-	left: 10px;
-	margin-bottom: 20px;
-}
-
 @media (min-width: 768px){
 	html {
 		max-width: 750px;
