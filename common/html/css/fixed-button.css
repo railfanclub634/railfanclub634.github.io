@@ -94,4 +94,22 @@
 	padding: 15px;
 }
 
-
+/*タブレット用*/
+@media (min-width: 768px){
+	
+	.overlay-search{
+		float:left;
+		width:50%;
+	}
+	
+	.overlay-list{
+		width:50%;
+	}
+	
+}
+	
+/*デスクトップ用*/
+@media (min-width: 1024px){
+	
+	
+}
