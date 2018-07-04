@@ -87,12 +87,17 @@
 	
 	.overlay-search{
 		float:left;
-		width:50%;
+		width:25%;
 	}
 	
 	.overlay-list{
 		float:left;
-		width:50%;
+		width:25%;
+	}
+	
+	.overlay-share {
+		clear:both;
+		
 	}
 	
 }
