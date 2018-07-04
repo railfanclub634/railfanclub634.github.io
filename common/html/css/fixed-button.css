@@ -86,17 +86,21 @@
 @media (min-width: 768px){
 	
 	.overlay-search{
-		float:left;
-		width:25%;
+		float: left;
+		width: 50%;
+		padding-left: 40%;
+		padding-right: 10%;
 	}
 	
 	.overlay-list{
-		float:left;
-		width:25%;
+		float: left;
+		width: 50%;
+		padding-left: 40%;
+		padding-right: 10%;
 	}
 	
 	.overlay-share {
-		clear:both;
+		clear: both;
 		
 	}
 	
