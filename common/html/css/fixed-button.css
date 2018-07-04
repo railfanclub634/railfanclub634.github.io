@@ -35,14 +35,14 @@
 	color:#fff;
 }
 
-.overlay.is-open {
+.is-open {
   	opacity: 1;
 	background-color: rgba(0, 0, 0, .8);
   	visibility: visible;
   	transform: translateY(0);
 }
 
-.overlay .overlay-search {
+.overlay-search {
 	width: 240px;
 	border-bottom: solid 1px #fff;
 	margin-left: auto;
@@ -52,7 +52,7 @@
 	color: rgba(255,255,255,0.40);
 }
 
-.overlay .overlay-list {
+.overlay-list {
 	margin-top: 20px;
 	width: 180px;
 	margin-right: auto;
@@ -60,13 +60,13 @@
 	font-family: "mplus-1-thin","mplus-1p-thin";
 }
 
-.overlay .overlay-list li {
+.overlay-list li {
 	padding-top: 10px;
 	width: 100%;
 	border-bottom: solid 1px #4E4E4E;
 }
 
-.overlay .overlay-share {
+.overlay-share {
 	width: 200px;
 	height: auto;
 	margin-right: auto;
@@ -76,19 +76,7 @@
 	font-family: "mplus-1-light","mplus-1p-light";
 }
 
-.overlay .overlay-share .share-icon-twitter {
-	width:calc(100% / 3);
-	float:left;
-	padding: 15px;
-}
-
-.overlay .overlay-share .share-icon-facebook {
-	width:calc(100% / 3);
-	float:left;
-	padding: 15px;
-}
-
-.overlay .overlay-share .share-icon-googleplus {
+.share-icon-twitter,.share-icon-facebook,.share-icon-googleplus {
 	width:calc(100% / 3);
 	float:left;
 	padding: 15px;
