@@ -113,5 +113,27 @@
 /*デスクトップ用*/
 @media (min-width: 1024px){
 	
+	.overlay-search{
+		margin-top: 60px;
+		float: left;
+		width: calc(100% / 3);
+		padding-left: 2.5%;
+		padding-right: 2.5%;
+	}
+	
+	.overlay-list{
+		margin-top:60px;
+		float: left;
+		width: calc(100% / 3);
+		padding-left: 2.5%;
+		padding-right: 2.5%;
+	}
+	
+	.overlay-share {
+		float: left;
+		width: calc(100% / 3);
+		padding-left: 2.5%;
+		padding-right: 2.5%;	
+	}	
 	
 }
