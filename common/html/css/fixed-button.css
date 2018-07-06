@@ -44,11 +44,11 @@
 
 .overlay-search {
 	width: 240px;
-	border-bottom: solid 1px #fff;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 40px;
 	font-family: "mplus-1-thin";
+	border-bottom: solid 1px #fff;
 	color: rgba(255,255,255,0.40);
 }
 
