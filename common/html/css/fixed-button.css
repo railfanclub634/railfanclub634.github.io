@@ -48,10 +48,12 @@
 	margin-right: auto;
 	margin-top: 40px;
 	font-family: "mplus-1-thin";
-	border-bottom: solid 1px #fff;
 	color: rgba(255,255,255,0.40);
 }
 
+.overlay-search h2 {
+	border-bottom: solid 1px #fff;
+}
 .overlay-list {
 	margin-top: 20px;
 	width: 180px;
