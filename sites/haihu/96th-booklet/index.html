@@ -1,27 +1,48 @@
-<!doctype html>
-<html>
+ <!DOCTYPE html>
+<html lang="ja">
 <head>
-<meta charset="utf-8">
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-<title>武蔵高等学校中学校鉄道研究部ブログ</title>
-<link rel="stylesheet" href="../../../common/css/normalize.css">
-<link rel="stylesheet" href="../../../common/css/hp-common.css">
-<link rel="stylesheet" href="../../0common/site-common.css">
+<script src="/common/scripts/jquery-3.3.1.min.js"></script>
+<script src="/common/scripts/Animation.js"></script>
+<script>
+	//UI読み込み
+	$(function() {
+		$("#header").load("/common/html/header.html");
+		$("#footer").load("/common/html/footer.html");
+		$("#button-common").load("/common/html/fixed-button.html");
+	})
+</script>
+<script src="script.js"></script>
+<title>武蔵高等学校中学校鉄道研究部</title>
+<link rel="stylesheet" href="/common/css/normalize.css">
+<link rel="stylesheet" href="/common/css/hp-common.css">
 <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-	
-	<main>
-		<div class="title-text">
-			記念祭小冊子
+	<div id="button-common"></div>	
+	<div class="cover">
+		<header>
+			<div id="header"></div>
+		</header>
+		
+		<div class="second-header">
+			<img src="header.png" alt="second-header">
 		</div>
-		<p>
-			<div class="blog-text">
-				96回記念祭小冊子を配布します。
-		    </div>
-		</p>
-		<iframe class="pdf-viewer" src="/pdfjs-1.9.426-dist/web/viewer.html?file=/sites/haihu/96th-booklet/96th-booklet.pdf" frameborder="0"></iframe>
-	</main>
+		
+		<main>
+        	<h1>第96回帰年祭小冊子配布</h1>
+			<div class="text">
+				<p>
+					小冊子を配布します。
+				</p>
+				<iframe width="400" height="300" src="https://railfanclub634.github.io/pdfjs-1.9.426-dist/web/viewer.html?file=96th-booklet.pdf"></iframe>
+			</div>
+		</main>
+	
+		<footer>
+			<div id="footer"></div>
+		</footer>
+	</div>
 </body>
 </html>

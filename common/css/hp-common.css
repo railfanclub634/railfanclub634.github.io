@@ -68,6 +68,8 @@ main {
 	font-family: 'mplus-1-regular','mplus-1p-regular';
 }
 
+.text:first-letter
+
 @media (min-width: 768px){
 	html {
 		max-width: 750px;
