@@ -54,6 +54,15 @@ header {
 	font-family: 'mplus-1-thin','mplus-1p-thin';
 }
 
+second-header {
+    width: 100%;
+    max-width: none;
+    position: fixed;
+    top: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 main {
 	padding: 0px;
 	font-family: 'mplus-1-regular','mplus-1p-regular';
