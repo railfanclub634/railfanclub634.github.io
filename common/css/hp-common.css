@@ -65,8 +65,12 @@ img.second-header {
 	font-family: 'mplus-1-regular','mplus-1p-regular';
 }
 
-.title-text {
+.title {
 	padding: 7px;
+	width: 100%;
+	height:150px;
+	text-align: center;
+	background-image: url(header.png)
 	
 }
 
