@@ -66,16 +66,13 @@ img.second-header {
 }
 
 .title {
-	padding: 7px;
-	width: 100%;
-	height:150px;
-	text-align: center;
-	background-image: url(header.png)
-	
+	padding-top: 15px;
+	padding-left: 7px;
 }
 
 .text {
-	padding: 7px;
+	paffing-top:15px;
+	padding-left: 7px;
 }
 
 @media (min-width: 768px){
