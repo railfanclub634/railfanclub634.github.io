@@ -59,7 +59,7 @@ header {
     height: 250px;
 }
 
-main {
+.main {
 	padding: 0px;
 	font-family: 'mplus-1-regular','mplus-1p-regular';
 }
