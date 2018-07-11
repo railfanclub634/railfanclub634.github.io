@@ -66,13 +66,15 @@ img.second-header {
 }
 
 .title {
-	padding-top: 15px;
+	padding-top: 30px;
 	padding-left: 7px;
 }
 
 .text {
-	paffing-top:15px;
+	paffing-top:30px;
 	padding-left: 7px;
+	padding-right: 7px;
+	padding-bottom: 30px;
 }
 
 @media (min-width: 768px){
