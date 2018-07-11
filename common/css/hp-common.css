@@ -65,6 +65,15 @@ img.second-header {
 	font-family: 'mplus-1-regular','mplus-1p-regular';
 }
 
+.title-text {
+	padding: 7px;
+	
+}
+
+.text {
+	padding: 7px;
+}
+
 @media (min-width: 768px){
 	html {
 		max-width: 750px;
