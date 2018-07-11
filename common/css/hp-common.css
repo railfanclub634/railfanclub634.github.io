@@ -54,7 +54,7 @@ header {
 	font-family: 'mplus-1-thin','mplus-1p-thin';
 }
 
-second-header {
+.second-header {
     width: 100%;
     max-width: none;
     position: fixed;
