@@ -56,7 +56,7 @@ header {
 
 .second-header {
     width: 100%;
-    max-width: none;
+    height: 250px;
 }
 
 main {
