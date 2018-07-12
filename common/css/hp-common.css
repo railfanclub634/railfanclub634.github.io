@@ -38,6 +38,10 @@ a {
 	text-decoration: none ;
 }
 
+.list {
+	color:#000;
+}
+
 .cover {
 	z-index: 1;
 }
