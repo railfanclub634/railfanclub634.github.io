@@ -1,5 +1,9 @@
 @charset"utf-8";
 
+main {
+	padding-left: 0px;
+}
+
 .main-box {
 	background-size: cover;
 	background-position: center center;
