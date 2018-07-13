@@ -28,17 +28,17 @@ main {
 }
 
 .box2 {
-	background-image: url(./images/2018-96th-booklet.svg);
+	background-image: url(/sites/haihu/96th-booklet/header.png);
 	color: #000000;
 }
 
 .box3 {
-	background-image: url(./images/2018-kinensai-logo.png);
+	background-image: url(/images/389.png);
 	color: #000000;
 }
 
 .box4 {
-	background-image: url(./images/2018-harutyouki.png);
+	background-image: url(/images/2018-harutyouki.png);
 	color: #000000;
 }
 
