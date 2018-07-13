@@ -68,6 +68,12 @@ img.second-header {
 	font-family: 'mplus-1-regular','mplus-1p-regular';
 }
 
+
+main {
+	padding: 0px;
+	font-family: 'mplus-1-regular','mplus-1p-regular';
+}
+
 .title {
 	padding-top: 30px;
 	padding-left: 7px;
@@ -79,6 +85,8 @@ img.second-header {
 	padding-right: 7px;
 	padding-bottom: 30px;
 }
+
+
 
 @media (min-width: 768px){
 	html {
