@@ -1,10 +1,45 @@
-<!doctype html>
-<html>
+ <!DOCTYPE html>
+<html lang="ja">
 <head>
-<meta charset="utf-8">
-<title>無題ドキュメント</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<script src="/common/scripts/jquery-3.3.1.min.js"></script>
+<script src="/common/scripts/Animation.js"></script>
+<script>
+	//UI読み込み
+	$(function() {
+		$("#header").load("/common/html/header.html");
+		$("#footer").load("/common/html/footer.html");
+		$("#button-common").load("/common/html/fixed-button.html");
+	})
+</script>
+<script src="script.js"></script>
+<title>武蔵高等学校中学校鉄道研究部</title>
+<link rel="stylesheet" href="/common/css/normalize.css">
+<link rel="stylesheet" href="/common/css/hp-common.css">
+<link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+	<div id="button-common"></div>	
+	<div class="cover">
+		<header>
+			<div id="header"></div>
+		</header>
+		
+		<main>		
+			<div class="title">
+				<h1>活動記録</h1>
+			</div>
+			<div class="list">
+				<a href="/sites/katudou/389/index.html">
+					<li>部活の記録 No.398</li>
+				</a>
+			</div>
+		</main>
+		
+		<footer>
+			<div id="footer"></div>
+		</footer>
+	</div>
 </body>
 </html>

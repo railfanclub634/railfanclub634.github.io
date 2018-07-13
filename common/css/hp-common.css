@@ -95,6 +95,10 @@ main {
 	padding-bottom: 30px;
 }
 
+.text img {
+	width: 100%;
+}
+
 @media (min-width: 768px){
 	html {
 		max-width: 750px;
@@ -106,6 +110,10 @@ main {
 		padding: 10px;
 	}
 	
+	.text img {
+		width: 50%;
+	}
+	
 }
 
 @media (min-width: 1024px){
@@ -114,6 +122,8 @@ main {
 		max-width: 1000px;
 		margin-right: auto;
 		margin-left: auto;
+		
+	
 	}
 }
 
