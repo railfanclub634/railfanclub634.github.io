@@ -76,13 +76,12 @@ img.second-header {
 }
 
 main {
-	padding: 0px;
+	padding-left: 7px;
 	font-family: 'mplus-1-regular','mplus-1p-regular';
 }
 
 .title {
 	padding-top: 15px;
-	padding-left: 7px;
 }
 
 .toukousya {
@@ -91,7 +90,6 @@ main {
 
 .text {
 	padding-top:30px;
-	padding-left: 7px;
 	padding-right: 7px;
 	padding-bottom: 30px;
 }
