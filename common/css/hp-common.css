@@ -57,6 +57,10 @@ header {
 	font-family: 'mplus-1-thin','mplus-1p-thin';
 }
 
+.second-header {
+	font-family: "mplus-1-thin",'mplus-1p-thin';
+}
+
 img.second-header {
     width: 100%;
     height: 150px;
