@@ -59,6 +59,7 @@ header {
 
 .second-header {
 	font-family: "mplus-1-thin",'mplus-1p-thin';
+	max-width: none;
 }
 
 img.second-header {
