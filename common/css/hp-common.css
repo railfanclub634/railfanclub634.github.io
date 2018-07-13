@@ -40,6 +40,11 @@ a {
 
 .list {
 	color:#000;
+	position: relative;
+	background-color: #BDBDBD;
+	border-left: solib 6px #000;
+	margin-bottom: 3px;
+	list-style-type: none;
 }
 
 .cover {
@@ -67,12 +72,6 @@ img.second-header {
     height: 150px;
 	object-fit: cover;
 }
-
-.main {
-	padding: 0px;
-	font-family: 'mplus-1-regular','mplus-1p-regular';
-}
-
 
 main {
 	padding: 0px;
