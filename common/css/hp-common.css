@@ -50,6 +50,10 @@ a {
 	list-style-type: none; 
 }
 
+.list li {
+	padding-bottom: 2px;
+}
+
 .cover {
 	z-index: 1;
 }
