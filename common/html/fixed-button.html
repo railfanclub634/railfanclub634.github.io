@@ -7,6 +7,10 @@
 		$('.overlay').toggleClass('is-open');
  	});
 </script>
+<script src="/tipuesearch/tipuesearch_content.js"></script>
+<link rel="stylesheet" href="/tipuesearch/css/tipuesearch.css">
+<script src="/tipuesearch/tipuesearch_set.js"></script>
+<script src="/tipuesearch/tipuesearch.min.js"></script>
 <link rel="stylesheet" href="/common/html/css/fixed-button.css">
 </head>
 <body>
@@ -14,7 +18,20 @@
 	<object data="/common/images/icon/fixed-button.svg" type="image/svg+xml" alt="" id="fixed-button"></object>
 	<div class="overlay">
 		<div class="overlay-search">
-			<h2>検索</h2>
+		<form action="{{ page.url | relative_url }}">
+		  <div class="tipue_search_left"><img src="{{ "/tipuesearch/search.png" | relative_url }}" class="tipue_search_icon"></div>
+		  <div class="tipue_search_right"><input type="text" name="q" id="tipue_search_input" pattern=".{3,}" title="At least 3 characters" required></div>
+		  <div style="clear: both;"></div>
+		</form>
+		
+		<div id="tipue_search_content"></div>
+		
+		<script>
+			$(document).ready(function() {
+				$('#tipue_search_input').tipuesearch();
+			});
+			</script>
+
 		</div>
 		<div class="overlay-list">
 			<a href="/index.html">	
