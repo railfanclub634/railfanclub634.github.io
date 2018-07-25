@@ -14,7 +14,7 @@ $(function(){
  	}); 
 
 	$('.box4').click(function() {
-		window.location.href = "#"
+		window.location.href = "/sites/katudou/399/index.html"
  	}); 
 	
 });
