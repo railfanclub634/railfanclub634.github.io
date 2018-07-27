@@ -2,7 +2,7 @@ $(function(){
 
 	//boxにリンク
 	$('.box1').click(function() {
-		window.location.href = "/sites/osirase/site-opening/index.html"
+		window.location.href = "/sites/osirase/2018modukon/index.html"
  	}); 
 
 	$('.box2').click(function() {
