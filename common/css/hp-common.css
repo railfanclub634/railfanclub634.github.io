@@ -39,18 +39,15 @@ a {
 	color: #000;
 }
 
-.list {
+.list li {
 	font-size: 1.5rem;
 	color:#000;
 	position: relative;
 	background-color: #BDBDBD;
 	border-left: solid 6px #000;
 	padding: 0.25em;
+	margin-bottom: 3px;
 	list-style-type: none; 
-}
-
-.list li {
-	margin-bottom: 2px;
 }
 
 .cover {
