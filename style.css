@@ -48,7 +48,15 @@ main {
 	color: #000000;
 }
 
+.br::before {
+	content: "\A";
+	white-space: pre;
+}
 
+.br1::before {
+	content: "\A";
+	white-space: pre;
+}
 
 /*タブレット用*/
 @media (min-width: 768px){
@@ -68,6 +76,11 @@ main {
 		top:110px;
 		font-size: 60px;
 	}
+	
+	.br::before {
+	content: "";
+	}
+	
 }
 	
 /*デスクトップ用*/
@@ -81,4 +94,10 @@ main {
 	.box1 {
 		width: 100%;
 	}
+	
+	.br,.br1::before {
+	content: "";
+	}
+	
+	
 }
