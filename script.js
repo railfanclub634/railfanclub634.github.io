@@ -10,6 +10,10 @@ $(function(){
  	}); 
 
 	$('.box3').click(function() {
+		window.location.href = "/sites/katudou/401/index.html"
+ 	}); 
+
+	$('.box4').click(function() {
 		window.location.href = "/sites/katudou/400/index.html"
  	}); 
 

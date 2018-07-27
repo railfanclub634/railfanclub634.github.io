@@ -34,11 +34,16 @@ main {
 }
 
 .box3 {
-	background-image: url(/sites/katudou/400/header.png);
+	background-image: url(/sites/katudou/401/header.png);
 	color: #000000;
 }
 
 .box4 {
+	background-image: url(/sites/katudou/400/header.png);
+	color: #000000;
+}
+
+.box5 {
 	background-image: url(/sites/katudou/399/header.png);
 	color: #000000;
 }
