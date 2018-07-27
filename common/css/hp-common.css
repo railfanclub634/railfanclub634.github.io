@@ -102,6 +102,7 @@ main {
 
 .text img {
 	width: 100%;
+	padding: 7px;
 }
 
 @media (min-width: 768px){
