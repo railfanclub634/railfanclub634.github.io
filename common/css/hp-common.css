@@ -45,13 +45,12 @@ a {
 	position: relative;
 	background-color: #BDBDBD;
 	border-left: solid 6px #000;
-	margin-bottom: 3px;
 	padding: 0.25em;
 	list-style-type: none; 
 }
 
 .list li {
-	padding-bottom: 2px;
+	margin-bottom: 2px;
 }
 
 .cover {
