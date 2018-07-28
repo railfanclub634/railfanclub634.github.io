@@ -20,11 +20,12 @@ main {
 .box1 {
 	background-image : url(/sites/osirase/2018modukon/header.png);
 	color: #fff;
+	padding-bottom: 20px;
 }	
 
 .box1 h1 {
 	position: relative;
-	top: 185px;
+	top: 95px;
 	font-size: 60px;
 }
 
