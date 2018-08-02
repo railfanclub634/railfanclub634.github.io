@@ -14,13 +14,13 @@ main {
 }
 
 .main-box h1 {
-	top: 20px;
+	top: 100px;
 }
 
 .box1 {
 	background-image : url(/sites/osirase/2018modukon/header.png);
 	color: #fff;
-	padding-bottom: 190px;
+	padding-bottom: 250px;
 }	
 
 .box1 h1 {
