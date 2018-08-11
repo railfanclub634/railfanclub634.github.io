@@ -51,21 +51,6 @@
 			<div id="footer"></div>
 		</footer>
 	</div>
+                        <script src="getJSON.js"></script>
 </body>
-<script>
-                        $(function() {
-                        //URLパラメーター読み込み
-                                                var jsonname = "test";
-                        //json読み込み
-                                                $.getJSON("test.json", function(data){
-                                                $(data.release).each(function(){
-                                                $('<div class="cover"><main>' +
-                                                '<div class="title"><h1>' + this.title + '</h1></div>' +
-                                                '<div class="toukousya"><span class="contributor">' + this.contributor + '</span><span class="day">' + this.day +'</span></div>' + 
-                                                '<div class="text"><p>' + this.text + '</p></div>'
-                                                '</main></div>').appendTo('body');  
-                                                })
-                                                })
-                                                });
-</script>
 </html>
