@@ -34,7 +34,7 @@
 	background: rgba(0, 0, 0, .7);
 	opacity: 0;
 	visibility: hidden;
-	transition: .2s cubic-bezier(0.66, 0.03, 0.35, 0.91);
+	transition: .5s cubic-bezier(0.47, -0.8, 0.48, 1.57);
 	transform: translateY(100%);
 	color:#fff;
 }
@@ -90,7 +90,7 @@
 
 /*タブレット用*/
 @media (min-width: 768px){
-	
+
 	.overlay-search{
 		margin-top: 60px;
 		float: left;
@@ -98,7 +98,7 @@
 		padding-left: 20%;
 		padding-right: 2.5%;
 	}
-	
+
 	.overlay-list{
 		margin-top:60px;
 		float: left;
@@ -106,17 +106,17 @@
 		padding-left: 2.5%;
 		padding-right: 20%;
 	}
-	
+
 	.overlay-share {
 		clear: both;
 		margin-top: 40px;
 	}
-	
+
 }
-	
+
 /*デスクトップ用
 @media (min-width: 1024px){
-	
+
 	.overlay-search{
 		margin-top: 60px;
 		float: left;
@@ -124,7 +124,7 @@
 		padding-left: 2.5%;
 		padding-right: 2.5%;
 	}
-	
+
 	.overlay-list{
 		margin-top:60px;
 		float: left;
@@ -132,12 +132,12 @@
 		padding-left: 2.5%;
 		padding-right: 2.5%;
 	}
-	
+
 	.overlay-share {
 		float: left;
 		width: calc(100% / 3);
 		padding-left: 2.5%;
-		padding-right: 2.5%;	
-	}	
-	
+		padding-right: 2.5%;
+	}
+
 } */
