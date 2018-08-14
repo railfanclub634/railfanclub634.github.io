@@ -5,12 +5,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 <script src="/common/scripts/jquery-3.3.1.min.js"></script>
 <script>
-                        $(function() {
-                        //UI読み込み
-                                                $("#header").load("/common/html/header.html");
-		$("#footer").load("/common/html/footer.html");
-		$("#button-common").load("/common/html/fixed-button.html");
-            });
+$(function() {
+//UI読み込み
+  $("#header").load("/common/html/header.html");
+	$("#footer").load("/common/html/footer.html");
+	$("#button-common").load("/common/html/fixed-button.html");
+});
 </script>
 
 <title>武蔵高等学校中学校鉄道研究部</title>
@@ -29,28 +29,26 @@
 </head>
 
 <body>
-	<div id="button-common"></div>	
+	<div id="button-common"></div>
 	<div class="cover">
 		<header>
 			<div id="header"></div>
 		</header>
 		<img class="second-header" src="header.png" alt="second-header">
 		<main>
-			<div class="title">
-                                                                                                 <h1></h1>
-			</div>
+			<div class="title"><h1></h1></div>
 			<div class="toukousya">
-				<p>投稿者:<span class="contributor"></span>投稿日:<span class="day"></span></p>
+				<p>投稿者:<span class="name"></span>投稿日:<span class="day"></span></p>
 			</div>
 			<div class="text">
 				<p></p>
 			</div>
 		</main>
-	
+
 		<footer>
 			<div id="footer"></div>
 		</footer>
 	</div>
-                        <script src="getJSON.js"></script>
+<script src="getJSON.js"></script>
 </body>
 </html>
