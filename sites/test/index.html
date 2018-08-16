@@ -15,7 +15,7 @@ $(function() {
 <script>
 //getJSON
 $(function() {
-  $getJSON("test.json", function(data) {
+  $.getJSON("test.json", function(data) {
     $(data.blogdata).each(function(){
       $("main").append("<div class="title"><h1>" + this.title + "</h1></div><div class="toukousya"><p>投稿者:" + this.name + "投稿日:" + this.day +"</p></div><div class="text"><p>" + this.text + "</p></div>");
     });
