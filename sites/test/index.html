@@ -4,7 +4,6 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 <script src="/common/scripts/jquery-3.3.1.min.js"></script>
-<script src="getJSON.js"></script>
 <script>
 $(function() {
 //UI読み込み
@@ -12,7 +11,13 @@ $(function() {
 	$("#footer").load("/common/html/footer.html");
 	$("#button-common").load("/common/html/fixed-button.html");
 
-  $("main").append('<div class="title"><h1>" + タイトル +"</h1></div>');
+  $getJSON("test.json", function(data) {
+    $(data.blogdata).each(function(){
+      $("main").append("<div class="title"><h1>" + this.title + "</h1></div>"
+      "<div class="toukousya"><p>投稿者:" + this.name + "投稿日:" + this.day +"</p></div>"
+      "<div class="text"><p>" + this.text + "</p></div>");
+    })
+  })
 });
 </script>
 
@@ -34,24 +39,10 @@ $(function() {
 <body>
 	<div id="button-common"></div>
 	<div class="cover">
-		<header>
-			<div id="header"></div>
-		</header>
+		<header><div id="header"></div></header>
 		<img class="second-header" src="header.png" alt="second-header">
-		<main>
-			<div class="title"><h1></h1></div>
-			<div class="toukousya">
-				<p>投稿者:<span class="name"></span>投稿日:<span class="day"></span></p>
-			</div>
-			<div class="text">
-				<p></p>
-			</div>
-		</main>
-
-		<footer>
-			<div id="footer"></div>
-		</footer>
+		<main></main>
+		<footer><div id="footer"></div></footer>
 	</div>
-
 </body>
 </html>
