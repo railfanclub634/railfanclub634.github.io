@@ -4,25 +4,13 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 <script src="/common/scripts/jquery-3.3.1.min.js"></script>
+<script src="getJSON.js"></script>
 <script>
 //UI読み込み
 $(function() {
   $("#header").load("/common/html/header.html");
 	$("#footer").load("/common/html/footer.html");
 	$("#button-common").load("/common/html/fixed-button.html");
-});
-</script>
-<script>
-//getJSON
-$(function() {
-//  $.getJSON("test.json", function(data) {
-$.ajax({
-  dataType: 'jsonp',
-  url: request,
-  data: "test.json"
-  success: function (jsonp) {
-      $("main").html("<div class="title"><h1>" + this.title + "</h1></div><div class="toukousya"><p>投稿者:" + this.name + "投稿日:" + this.day +"</p></div><div class="text"><p>" + this.text + "</p></div>");
-  }
 });
 </script>
 
