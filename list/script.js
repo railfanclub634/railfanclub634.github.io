@@ -1,5 +1,5 @@
 window.addEventListener('DOMContentLoaded', function() {
-    var jsonname = document.location.search.substring(1) + "-list.json"
+    var jsonname = "json/" + document.location.search.substring(1) + "-list.json"
     $.getJSON(jsonname, {name: "listdata"}, function(data){
         var dataArray = data.listdata;
       $.each(dataArray, function(i){
