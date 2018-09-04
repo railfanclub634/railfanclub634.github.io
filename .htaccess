@@ -4,3 +4,5 @@ AddType font/opentype         .otf
 AddType font/eot              .eot
 AddType font/truetype         .ttf
 AddType application/font-woff .woff
+
+Redirect 301 /sites/haihu/96th-booklet /sites/index.html?haihu/1
