@@ -12,5 +12,5 @@ window.addEventListener('DOMContentLoaded', function() {
 });
 window.onload = function(){
   var imgname = "<img src=" + document.location.search.substring(1) +"/1.png>";
-  document.getElementById("1").innerHTML = imgname;
+  $("#1").append(imgname);
 };
