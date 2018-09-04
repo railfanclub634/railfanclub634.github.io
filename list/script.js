@@ -3,7 +3,7 @@ window.addEventListener('DOMContentLoaded', function() {
     $.getJSON(jsonname, {name: "listdata"}, function(data){
         var dataArray = data.listdata;
       $.each(dataArray, function(i){
-          $(".list").append('<a href=/sites?' + jsonname + '/' + dataArray[i].url + '><li>' + dataArray[i].title + '</li></a>');
+          $(".list").append('<a href=/sites?' + document.location.search.substring(1) + '/' + dataArray[i].url + '><li>' + dataArray[i].title + '</li></a>');
         });
     });
 });
