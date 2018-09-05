@@ -5,4 +5,5 @@ AddType font/eot              .eot
 AddType font/truetype         .ttf
 AddType application/font-woff .woff
 
-Redirect 301 /sites/haihu/96th-booklet /sites/index.html?haihu/1
+RewriteEngine on
+RewriteRule ^/sites/osirase/modukon2018_d2/index.html$ https://railfanclub634.github.io/sites?event/4 [R=301,L]
