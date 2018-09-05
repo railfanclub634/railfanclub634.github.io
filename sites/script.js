@@ -11,6 +11,6 @@ window.addEventListener('DOMContentLoaded', function() {
     $(".headerimg").append('<img class="second-header" src=' + headerimg + ' alt="second-header">');
 });
 window.onload = function(){
-  var imgname = "<img src=" + document.location.search.substring(1) +"/1.png>";
-  $("#1").append(imgname);
+  var imgname = document.location.search.substring(1);
+  $("#1").append("<img src=" + imgname  +"/1.png>");
 };
