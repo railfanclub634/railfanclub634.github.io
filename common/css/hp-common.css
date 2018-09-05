@@ -112,8 +112,9 @@ main {
 		padding: 10px;
 	}
 	
-	.text img {
+	.text div {
 		width: 50%;
+		float: left;
 	}
 	
 }
