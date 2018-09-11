@@ -1,0 +1,105 @@
+@charset"utf-8";
+
+main {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.main-box {
+	background-size: cover;
+	background-position: center center;
+	padding-top: 20px;
+	padding-bottom: 420px;
+	text-align: center;
+}
+
+.main-box h1 {
+	top: 100px;
+}
+
+.box1 {
+	background-image : url(/sites/event/4/header.png);
+	color: #fff;
+	padding-bottom: 250px;
+}	
+
+.box1 h1 {
+	position: relative;
+	top: 95px;
+	font-size: 60px;
+}
+
+.box2 {
+	background-image: url(/sites/haihu/1/header.png);
+	color: #000000;
+}
+
+.box3 {
+	background-image: url(/sites/katudou/401/header.png);
+	color: #000000;
+}
+
+.box4 {
+	background-image: url(/sites/katudou/400/header.png);
+	color: #000000;
+}
+
+.box5 {
+	background-image: url(/sites/katudou/399/header.png);
+	color: #000000;
+}
+
+.br::before {
+	content: "\A";
+	white-space: pre;
+}
+
+.br1::before {
+	content: "\A";
+	white-space: pre;
+}
+
+/*タブレット用*/
+@media (min-width: 768px){
+
+	.main-box {
+		float:left;
+		width: 50%;
+		padding-bottom:350px;
+	}
+	
+	.box1 {
+		padding-bottom: 275px;
+		width: 100%;
+	}
+	
+	.box1 h1 {
+		position:relative;
+		top:110px;
+		font-size: 60px;
+	}
+	
+	.br::before {
+	content: "";
+	}
+	
+}
+	
+/*デスクトップ用*/
+@media (min-width: 1024px){
+	
+	.main-box {
+		float: left;
+		width: calc(100% / 3);
+	}
+	
+	.box1 {
+		width: 100%;
+	}
+	
+	.br,.br1::before {
+	content: "";
+	}
+	
+	
+}

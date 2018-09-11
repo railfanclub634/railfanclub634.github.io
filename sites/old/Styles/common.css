@@ -1,0 +1,207 @@
+@charset "UTF-8";
+
+/* リセット
+==================================== */
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  line-height: 1.75;
+  background: transparent;
+
+  word-spacing: normal;
+  letter-spacing: normal;
+  white-space: normal;
+  word-wrap: break-word;
+  text-align: justify;
+  -webkit-text-align-last: left;
+    -epub-text-align-last: left;
+          text-align-last: left;
+  -webkit-line-break: normal;
+    -epub-line-break: normal;
+          line-break: normal;
+  -webkit-word-break: normal;
+    -epub-word-break: normal;
+          word-break: normal;
+  -webkit-hyphens: auto;
+    -epub-hyphens: auto;
+          hyphens: auto;
+  -webkit-text-underline-position: under left;
+          text-underline-position: under left;
+               underline-position: under left;
+}
+
+
+/* 組み方向指定（html要素に指定する）
+==================================== */
+/* 横組み */
+.hltr {
+  -webkit-writing-mode: horizontal-tb;
+    -epub-writing-mode: horizontal-tb;
+          writing-mode: horizontal-tb;
+}
+/* 縦組み */
+.vrtl {
+  -webkit-writing-mode: vertical-rl;
+    -epub-writing-mode: vertical-rl;
+          writing-mode: vertical-rl;
+}
+
+
+/* 改ページ指定
+====================================*/
+/* 指定したブロックの直後で改ページ */
+.pagebreak {
+  page-break-after: always;
+}
+/* 指定したブロックの直前で改ページ */
+.pagebreak-before {
+  page-break-before: always;
+}
+/* 指定したブロックの前後で改ページ */
+.pagebreak-both {
+  page-break-before: always;
+  page-break-after: always;
+}
+/* 任意の位置で改ページ */
+hr.pagebreak {
+  border: 0;
+  height: 0;
+  visibility: hidden;
+}
+
+
+/* 圏点
+==================================== */
+.em-sesame {
+  -webkit-text-emphasis-style: filled sesame;
+    -epub-text-emphasis-style: filled sesame;
+          text-emphasis-style: filled sesame;
+}
+.em-sesame-open {
+  -webkit-text-emphasis-style: open sesame;
+    -epub-text-emphasis-style: open sesame;
+          text-emphasis-style: open sesame;
+}
+.em-dot {
+  -webkit-text-emphasis-style: filled dot;
+    -epub-text-emphasis-style: filled dot;
+          text-emphasis-style: filled dot;
+}
+.em-dot-open {
+  -webkit-text-emphasis-style: open dot;
+    -epub-text-emphasis-style: open dot;
+          text-emphasis-style: open dot;
+}
+.em-circle {
+  -webkit-text-emphasis-style: filled circle;
+    -epub-text-emphasis-style: filled circle;
+          text-emphasis-style: filled circle;
+}
+.em-circle-open {
+  -webkit-text-emphasis-style: open circle;
+    -epub-text-emphasis-style: open circle;
+          text-emphasis-style: open circle;
+}
+.em-double-circle {
+  -webkit-text-emphasis-style: filled double-circle;
+    -epub-text-emphasis-style: filled double-circle;
+          text-emphasis-style: filled double-circle;
+}
+.em-double-circle-open {
+  -webkit-text-emphasis-style: open double-circle;
+    -epub-text-emphasis-style: open double-circle;
+          text-emphasis-style: open double-circle;
+}
+.em-triangle {
+  -webkit-text-emphasis-style: filled triangle;
+    -epub-text-emphasis-style: filled triangle;
+          text-emphasis-style: filled triangle;
+}
+.em-triangle-open {
+  -webkit-text-emphasis-style: open triangle;
+    -epub-text-emphasis-style: open triangle;
+          text-emphasis-style: open triangle;
+}
+
+
+/* 傍線
+==================================== */
+/* 【横組み】下線　【縦組み】右線 */
+.hltr .em-line {
+  text-decoration: underline;
+}
+.vrtl .em-line {
+  text-decoration: overline;
+}
+
+/* 【横組み】上線　【縦組み】左線 */
+.hltr .em-line-outside {
+  text-decoration: overline;
+}
+.vrtl .em-line-outside {
+  text-decoration: underline;
+}
+
+
+/* 行揃え
+==================================== */
+/* 行頭揃え */
+.align-left,
+.align-start {
+  text-align: left;
+  -webkit-text-align-last: left;
+    -epub-text-align-last: left;
+          text-align-last: left;
+}
+/* 行中揃え */
+.align-center {
+  text-align: center;
+  -webkit-text-align-last: auto;
+    -epub-text-align-last: auto;
+          text-align-last: auto;
+}
+/* 行末揃え */
+.align-right,
+.align-end {
+  text-align: right;
+  -webkit-text-align-last: auto;
+    -epub-text-align-last: auto;
+          text-align-last: auto;
+}
+
+
+/* 目次
+==================================== */
+body.toc h1 {
+  font-size: 100%;
+}
+body.toc li {
+  list-style: none;
+}
+body.toc li a {
+  text-decoration: none;
+}
+body.toc li.chapter-title > a {
+  font-weight: bold;
+}
+
+
+/* 本文
+==================================== */
+body.cover {
+  text-align: center;
+}
+body.cover h1 {
+  text-align: center;
+  margin: 3em 0 1em;
+}
+.article-date {
+  text-align: right;
+}
+article img.pict {
+  display: block;
+  margin: 1em auto;
+  max-width: 100%;
+}
