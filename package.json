@@ -1,0 +1,23 @@
+{
+  "name": "railfanclub634.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/railfanclub634/railfanclub634.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/railfanclub634/railfanclub634.github.io/issues"
+  },
+  "dependencies": {
+    "gh-pages": "^1.2.0"
+  },
+  "homepage": "https://railfanclub634.github.io/react-test"
+}
