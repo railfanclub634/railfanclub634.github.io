@@ -11,7 +11,7 @@ main {
 	padding-top: 20px;
 	padding-bottom: 420px;
 	text-align: center;
-    margin: 5px;
+    margin: 10px;
 }
 
 .box-title {
@@ -73,6 +73,7 @@ main {
 		float:left;
 		width: calc(50% - 10px);
 		padding-bottom:350px;
+        margin: 5px;
 	}
 	
 	.box1 {
