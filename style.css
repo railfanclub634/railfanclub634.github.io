@@ -11,7 +11,7 @@ main {
 	padding-top: 20px;
 	padding-bottom: 420px;
 	text-align: center;
-
+    margin: 5px;
 }
 
 .box-title {
@@ -71,13 +71,15 @@ main {
 
 	.main-box {
 		float:left;
-		width: 50%;
+		width: calc(50% - 10px);
 		padding-bottom:350px;
 	}
 	
 	.box1 {
 		padding-bottom: 275px;
 		width: 100%;
+        margin-left: 5px;
+        width: calc(100% - 10px);
 	}
 	
 	.box1 h1 {
@@ -97,11 +99,12 @@ main {
 	
 	.main-box {
 		float: left;
-		width: calc(100% / 3);
+		width: calc(100% / 3 - 10px);
 	}
 	
 	.box1 {
-		width: 100%;
+		width: calc(100% - 10px);
+        margin-left: 5px;
 	}
 	
 	.br,.br1::before {
