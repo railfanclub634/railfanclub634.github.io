@@ -12,6 +12,17 @@ window.addEventListener('DOMContentLoaded', function() {
 });
 window.onload = function(){
   var imgname = document.location.search.substring(1);
+  $(".1").append("<img src=" + imgname  + "/1.png>");
+  $(".2").append("<img src=" + imgname  + "/2.png>");
+  $(".3").append("<img src=" + imgname  + "/3.png>");
+  $(".4").append("<img src=" + imgname  + "/4.png>");
+  $(".5").append("<img src=" + imgname  + "/5.png>");
+  $(".6").append("<img src=" + imgname  + "/6.png>");
+  $(".7").append("<img src=" + imgname  + "/7.png>");
+  $(".8").append("<img src=" + imgname  + "/8.png>");
+  $(".9").append("<img src=" + imgname  + "/9.png>");
+  $(".10").append("<img src=" + imgname  + "/10.png>");
+    
   $("#1").append("<img src=" + imgname  + "/1.png>");
   $("#2").append("<img src=" + imgname  + "/2.png>");
   $("#3").append("<img src=" + imgname  + "/3.png>");
