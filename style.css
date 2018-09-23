@@ -56,6 +56,12 @@ main {
 	color: #000000;
 }
 
+.box6 {
+	background-image: url(/sites/katudou/402/header.png);
+	color: #000000;
+}
+
+
 .br::before {
 	content: "\A";
 	white-space: pre;
