@@ -44,6 +44,7 @@
 	background-color: rgba(0, 0, 0, .8);
   	visibility: visible;
   	transform: translateY(0);
+	touch-action:none;
 }
 
 .overlay-search {
